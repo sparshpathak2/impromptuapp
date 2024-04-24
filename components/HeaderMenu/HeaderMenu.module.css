@@ -1,0 +1,44 @@
+.header {
+  height: rem(54px);
+  /* height: rem(100px); */
+  /* display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between; */
+  /* gap: rem(100px); */
+  /* margin-bottom: rem(120px); */
+  margin: 0;
+  background-color: var(--mantine-color-body);
+  border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.inner {
+  height: rem(54px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 12px;
+  /* gap: 400px; */
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: rem(8px) rem(12px);
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  }
+}
+
+.linkLabel {
+  margin-right: rem(5px);
+}

@@ -1,0 +1,20 @@
+.form_textarea {
+    resize: none;
+    width: 100%;
+    border: 1px solid #F1F3F5;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    background-color: #F1F3F5;
+}
+
+.form_textarea:focus {
+    /* resize: none;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px 8px; */
+    border-color: #a7d1f5 !important;
+    background-color: #ffffff;
+    /* border-width: 1px; */
+}
